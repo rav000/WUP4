@@ -1,0 +1,317 @@
+/* hcp modifications */
+
+.sys-font-heading3 {
+	font-family: Franklin Gothic Medium !important;
+	font-size: 175%;
+}
+
+/* hcp modifications */
+
+/* GLOBAL */
+
+body {
+	color: black;
+	background-color: white;
+	overflow: auto;
+	margin: 10px 16px 10px 16px;
+}
+
+body, td, button, input, select {
+	font: messagebox;
+}
+
+table { table-layout: fixed; }
+
+a img { border-width: 0px; }
+
+ul, ol { margin: 5px 0px 5px 16px; /*rtl*/ }
+
+ol li { margin: 0px 0px 2px 8px; /*rtl*/ }
+
+hr {
+	height: 1px;
+	color: black;
+}
+
+button {
+	padding: 0px 14px 1px 14px;
+	width: 80px;
+	height: 21px;
+	overflow: visible;
+	line-height: 15px;
+	cursor: default;
+}
+
+input.checkbox {
+	margin: 0px 0px -2px 0px;
+}
+
+img.icon16 {
+	width: 16px;
+	height: 16px;
+	margin: 0px 5px -2px 0px; /*rtl*/
+}
+
+img.icon32 {
+	width: 32px;
+	height: 32px;
+	margin: 0px 6px -12px 0px; /*rtl*/
+}
+
+img.arrow {
+	width: 30px;
+	height: 25px;
+}
+
+div.spacer {
+	overflow: hidden;
+}
+
+/* GLOBAL */
+/* error.asp */
+
+div.error {
+	background-color: #F7F3E7;
+	margin: 10px 0px 0px 0px;
+	padding: 6px 12px 16px 12px;
+}
+
+div.error div {
+	border-top: 1px solid #9C9C9C;
+	text-align: right;
+	padding: 6px 0px 0px 0px;
+	margin: 6px 0px 0px 0px;
+}
+
+/* error.asp */
+/* results.asp */
+
+body.results {
+	overflow: hidden;
+	margin: 10px 16px 0px 16px;
+}
+
+body.results table {
+	width: 100%;
+	height: 100%;
+}
+
+td.resultsTop {
+	height: 100px;
+	vertical-align: top;
+	padding: 0px;
+}
+
+div.resultsPageInfo {
+	height: 100px;
+	overflow: auto;
+}
+
+div.resultsPageInfo div.subTitle {
+	font-weight: bold;
+	margin: 10px 0px 5px 0px;
+}
+
+div.resultsProviderLogo {
+	margin: 0px 0px 2px 0px;
+	float: right; /*rtl*/
+	text-align: right; /*rtl*/
+}
+
+tr.resultsBasketBar td {
+	vertical-align: middle !important;
+	height: 50px;
+	padding: 0px 10px 0px 10px;
+	border-bottom: 1px solid #0148B2;
+}
+
+div#eUpdatesContainer {
+	height: 100%;
+	overflow: auto;
+	padding: 0px 0px 10px 0px;
+}
+
+span#ePageDescCanceledEULA {
+	display: none;
+}
+
+/* ITEM TEMPLATE */
+
+div.group {
+	width: 100%;
+	padding: 4px 10px 4px 10px;
+}
+
+div.update, div.updateDisabled {
+	margin: 4px 8px 0px 8px;
+	padding: 0px 0px 4px 0px;
+	border-bottom: 1px solid silver;
+}
+
+div.update {
+	color: black;
+}
+
+div.updateDisabled {
+	color: #808080;
+}
+
+div.updateDisabled a {
+	color: #6E77A4;
+}
+
+div.updateTitle {
+	font-weight: bold;
+	margin: 0px 0px 4px 0px;
+}
+
+div.buttons {
+	padding: 2px 0px 0px 0px;
+	text-align: right; /*rtl*/
+}
+
+div.buttons button {
+	margin: 0px 6px 0px 6px;
+}
+
+div.buttons span {
+	color: black !important;
+	font-weight: bold;
+	margin: 15px 4px 0px 4px;
+}
+
+span.dependencies {
+	width: 260px;
+	padding: 2px 2px 3px 2px;
+	margin: -2px 0px -4px -2px; /*rtl*/
+}
+
+div.dependenciesBox {
+	position: absolute;
+	width: 260px;
+	visibility: hidden;
+	border-width: 1px;
+	border-style: solid;
+	margin: 0px;
+	padding: 10px;
+	left: 32px; /*rtl*/
+}
+
+#eMoveObj {
+	position: absolute;
+	overflow: hidden;
+	border: 1px solid #7384B5 !important;
+	margin: -1px -1px 0px -1px;
+}
+
+#eMoveObj button {
+	visibility: hidden;
+}
+
+/* ITEM TEMPLATE */
+/* results.asp */
+/* personalize.asp */
+
+div.personalizationHeader {
+	width: 100%;
+	margin: 8px 0px 8px 0px;
+	padding: 5px;
+}
+
+div#ePersonalizeCatalog div {
+	margin: 0px 0px 0px 39px; /*rtl*/
+}
+
+div#ePersonalizeCatalog img {
+	width: 11px;
+	height: 11px;
+	margin: 0px 9px -2px 0px; /*rtl*/
+	cursor: hand;
+}
+
+body.personalization input.checkbox {
+	margin: 0px 3px -2px -4px; /*rtl*/
+}
+
+body.personalization button {
+	margin: 0px 0px 0px 20px; /*rtl*/
+	float: right; /*rtl*/
+}
+
+/* personalize.asp */
+/* history.asp */
+
+body.history {
+	margin: 10px 16px 0px 16px;
+	overflow: hidden;
+}
+	
+body.history table.body {
+	width: 100%;
+	height: 100%;
+}
+
+body.history table.body td {
+	padding: 0px;
+	vertical-align: top;
+}
+
+body.history td#eSortTableHeaderContainer {
+	height: 0px;
+	vertical-align: bottom !important;
+}
+
+body.history td#eSortTableHeaderContainer table {
+	position: absolute;
+}
+
+body.history td#eSortTableHeaderContainer table td a {
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	padding: .5em;
+	border-width: 1px;
+	border-style: solid;
+}
+
+body.history td#eSortTableHeaderContainer table td a img {
+	vertical-align: middle;
+	width: 8px;
+	height: 7px;
+	visibility: hidden;
+	margin: 0px 15px 0px 15px;
+}
+
+body.history div#eSortTableContainer {
+	padding: 0px 0px 10px 0px;
+	height: 100%;
+	overflow: auto;
+}
+
+body.history div#eSortTableContainer table {
+	border-width: 0px 1px 1px 0px;
+	border-style: none solid solid none;
+}
+
+body.history div#eSortTableContainer td {
+	padding: .75em !important;
+	border-width: 0px 0px 0px 1px;
+	border-style: none none none solid;
+}
+
+/* history.asp */
+/* about.asp */
+
+.aboutHeader {
+	color: black;
+	font-weight: bold;
+	font-size: 112.5%;
+}
+
+/* about.asp */
+/* worldwide.asp */
+
+tr#eWorldwide li { color: #3333FF;line-height: 16pt; }
+tr#eWorldwide td { vertical-align: top;padding: 5px; }
+
+/* worldwide.asp */

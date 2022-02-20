@@ -1,0 +1,29 @@
+/* global */
+.sys-font-body-bold { font-weight: bold; }
+.sys-link-normal { color: #3333FF;text-decoration: none; }
+.sys-link-normal:hover { color: #6666FF;text-decoration: underline; }
+
+/* toc */
+.sys-lhp-color { color: #FFFFFF; }
+.sys-lhp-bgcolor { background-color: #8CAAE6; }
+.sys-toppane-bgcolor { background-color: #EDF2FC; }
+.sys-toppane-color-border { border-color: #5582D2; }
+.sys-toppane-header-color { color: #FFFFFF; }
+.sys-toppane-header-bgcolor { background-color: #0148B2; }
+.sys-toppane-selection { background-color: #C7D8FA; }
+.sys-bottompane-header-color { color : #215DC6; }
+.sys-link-header { color: #FFFFFF;text-decoration : none; }
+.sys-link-header:hover{ text-decoration : underline; }
+
+/* content */
+.sys-color-body { color: #000000; }
+.sys-color-body-alert { color: #FF0000; }
+.sys-color-body-ok { color: #009900; }
+.sys-header-color { color: #D6DFF5 }
+.sys-header-bgcolor { background-color: #003399; }
+.sys-rhp-bgcolor { background-color: #FFFFFF; }
+.sys-rhp-color-title { color: #5A7EDC; }
+.sys-table-header-bgcolor1 { background-color: #6681D9; }
+.sys-table-color-border { border-color: #6681D9; }
+.sys-table-cell-bgcolor1 { background-color: #FFFFFF; }
+.sys-table-cell-bgcolor2 { background-color: #D6DFF5; }
