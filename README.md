@@ -1,8 +1,12 @@
 # Windows Update v4 Website
 
-This project Brings back Windows Update v4 Website (but not fully)
+This project Brings back Windows Update v4 Website
 
-WARNING
+INFORMATION!
+1. The site is NOT search for updates BUT I'm search the updates from MS Update Catalog.
+2. The site is still on a project. Some features may not available.
+
+WARNING!
 Only Internet Explorer can open the site (u should enable tls 1.1 and 1.2)
 
 Also, Internet Explorer 7/8/9 HAS SUPPORT. 10/11 HAS NO SUPPORT
