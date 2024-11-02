@@ -1,6 +1,7 @@
 ### not confused with github.com/srv2003/WUP5
 
 ## i have no time to countinue the site, so i archive it
+## never ask for support
 
 # Windows Update v4 Website
 
